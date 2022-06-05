@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 10px 20px;
+    background-color: black;
+}
+
+p {
+    top: 300px;
+    left: 400px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 26px;
+    margin-bottom: 6px;
+}
+
+canvas {
+    position: absolute;
+    top: 10em;
+    left: 10em;
+}
+
+#wasd {
+    color: yellow;
+}
+
+#score {
+    font-size: 1em;
+    top: 50px;
+    left: 340px;
+    position: absolute;
+}
+
+#scoreEl {
+    font-size: 1em;
+    top: 50px;
+    left: 420px;
+    position: absolute;
+}
+
+#instruct {
+    width: 500px;
+    height: 10px;
+    top: 370px;
+    left: 600px;
+    position: absolute;
+    font-weight: 400;
+    font-size: 1em;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    transition: opacity 2s;
+}
+
+#instruct1 {
+    width: 500px;
+    height: 10px;
+    top: 420px;
+    left: 600px;
+    position: absolute;
+    font-weight: 400;
+    font-size: 1em;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    transition: opacity 2s;
+}
